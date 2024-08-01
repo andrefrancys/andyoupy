@@ -42,7 +42,7 @@ window.geometry("400x400")
 
 # Carregamento da imagem de logo
 logo_image = Image.open("youtube-logo.png")
-logo_image = logo_image.resize((250, 80), Image.ANTIALIAS)
+logo_image = logo_image.resize((250, 80), Image.LANCZOS)
 logo_photo = ImageTk.PhotoImage(logo_image)
 
 # Criação do título
