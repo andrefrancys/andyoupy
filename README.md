@@ -34,6 +34,22 @@ Este é um programa em Python que permite baixar listas de reprodução e vídeo
 3. Instale as dependências executando o seguinte comando: pip install -r requirements.txt
 
 
+Observações: O erro indica que o tkinter não está instalado no seu sistema. O tkinter é um módulo padrão do Python, mas em algumas distribuições do Linux ele precisa ser instalado separadamente.
 
+Solução:
+Poder ser necessário instalar o tkinter, dependendo da sua distribuição do Linux:
+
+Ubuntu/Debian:
+sudo apt update
+sudo apt install python3-tk
+
+Fedora:
+sudo dnf install python3-tkinter
+
+Arch Linux
+sudo pacman -S tk
+Depois de instalar, tente novamente instalar os pacotes do seu projeto:
+
+depois de instalado podem continuar com: pip install -r requirements.txt
 
 
